@@ -1,0 +1,71 @@
+/* Define uma estilização básica para a página */
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ background-image: url('back.png');
+ margin: 2px;
+ padding: 0px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estiliza o formulário */
+form {
+
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 2 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+  
+}
+
+/* Estiliza os rótulos */
+label {
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0 9px;
+   
+}
+
+/* Estiliza os campos de entrada */
+input[type="text"], input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+/* Estiliza as caixas de seleção */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Estiliza as checkboxes em linha */
+label[for^="checkboxes"] {
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+/* Estiliza o botão de submit */
+input[type="submit"] {
+    background-color: #fd9b12;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #ae6001;
+}

@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('back.png');
+    margin: 2px;
+    padding: 0px;
+    text-align: center;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estiliza o formulário */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #000000;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+/* Adiciona uma box para os resultados */
+.result-box {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza o botão de tentar novamente */
+button {
+    background-color: #fd9b12;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ae6001;
+}
